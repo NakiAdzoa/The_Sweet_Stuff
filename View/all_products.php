@@ -1,23 +1,9 @@
-<!-- 
-a page redirect (Mah Ze Dahr) to the one product page
-- add the ingredients and allegry info to the desciption
-
-When the add to cart is selected, it processes and saves and shows the count with the cart button then redirects to the view cart page side pop up 
-Then we have pick up tab, then we have delivery tab to fill. 
-then after each, we have proceed to check out 
-if the user selects checkout then there is a popup to select delivery or pickup
-
-WHen you select the cart, its a side pop up (Lost larson) too 
-- When checkout is selected, if, there is a checkout_delivery page and a check out pick up page 
- -->
-
 <?php
 //include the necceary files 
 require("../Settings/core.php");
 require('../Controllers/product_controller.php');
 include_once "../View/gen_header.php";
 
-// $id = $_SESSION['id'];
 ?>
 
 <title>The Sweet Stuff | Cravings Satisfied</title>
@@ -30,7 +16,6 @@ include_once "../View/gen_header.php";
         <h1>Our Yummy Brownies</h1>
         <?php
 
-        // $current_page = isset($_GET['id']) && is_numeric($_GET['id']) ? (int)$_GET['id'] : 1;
         $products = getAllProductsCtrlr();
         ?>
     
