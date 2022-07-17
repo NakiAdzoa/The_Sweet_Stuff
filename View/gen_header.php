@@ -14,8 +14,8 @@ include("../Settings/static_header.php");
                 <div class="container">
 
                     <div class="site-logo">
-                        <a class="site-logo__btn" href="../View/main_index.php">
-                            <img class="site-logo__expanded" src="../Images/thesweetstufflogo1.jpg" alt="The Sweet Stuff" />
+                       <a class="site-logo__btn" href="../index.php">
+                          <img class="site-logo__expanded" src="../Images/thesweetstufflogo1.jpg" alt="The Sweet Stuff" />
                         </a>
                     </div>
 
@@ -40,7 +40,7 @@ include("../Settings/static_header.php");
         <div class="site-header-mobi" aria-label="Navigation Menu Modal">
 
             <div class="site-logo">
-                <a class="site-logo__btn" href="../View/main_index.php">
+                <a class="site-logo__btn" href="../index.php">
                     <img src="../Images/thesweetstufflogo1.jpg" alt="The Sweet Stuff" />
                 </a>
             </div>
